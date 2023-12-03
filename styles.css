@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  max-width: 1152px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 27px;
+  padding-right: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 256px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  padding-block: 6.7px;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.profile {
+  padding: 140px 148px 71px 148px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  position: relative;
+}
+
+.profile-pic-shadow {
+  position: absolute;
+  top: 153px;
+  right: 153px;
+  width: 243px;
+  height: 243px;
+  background-color: #e7f7fa;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 243px;
+  height: 243px;
+}
+
+.profile-pic > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile-info {
+  margin-top: 5px;
+}
+
+.profile-info > h1 {
+  font-size: 44px;
+  color: #21243d;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+.profile-info > p {
+  color: #21243d;
+  width: 500px;
+  margin-bottom: 38px;
+}
+
+.profile-info > button {
+  font-family: 'Heebo';
+  font-weight: 500;
+  font-size: 20px;
+  padding: 7px 19px;
+  color: white;
+  background-color: #ff6464;
+  border: none;
+  cursor: pointer;
+}
+
+.feed {
+  background-color: #edf7fa;
+  padding: 7px 148px 32px 148px;
+}
+
+.feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 7px;
+}
+
+.feed-header > p {
+  font-size: 22px;
+  color: #21243d;
+  line-height: 60px;
+}
+
+.feed-header > a {
+  text-decoration: none;
+  color: #00a8cc;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  background-color: white;
+  width: 48.883%;
+}
+
+.post > h1 {
+  font-size: 26px;
+  color: #21243d;
+  padding: 24px 22px;
+}
+
+.post-date {
+  padding-inline: 22px;
+  font-size: 18px;
+  color: #21243d;
+}
+
+.post span {
+  font-size: 21px;
+  color: black;
+}
+
+.post-info {
+  padding-inline: 22px;
+  padding-block: 14px 31px;
+  color: #21243d;
+}
+
+.featured {
+  padding: 15px 148px 83px 148px;
+}
+
+.featured-head {
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.featured-card {
+  display: flex;
+  gap: 20px;
+  padding-block: 29px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.featured-img {
+  min-width: 240px;
+}
+
+.featured-img > img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 6px;
+}
+
+.featured-content > h1 {
+  font-size: 30px;
+  color: #21243d;
+  margin-bottom: 16px;
+}
+
+.featured-category {
+  display: flex;
+  align-items: baseline;
+  gap: 26px;
+  margin-bottom: 20px;
+}
+
+.yr {
+  background-color: #142850;
+  color: white;
+  width: 62px;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 16px;
+  padding-inline: 10px;
+}
+
+.featured-type {
+  font-size: 20px;
+  color: #8695a4;
+}
+
+.featured-info {
+  color: #21243d;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 50px;
+}
+
+.contact {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 26px;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #21243d;
+}
+
+@media screen and (max-width: 431px) {
+
+  header {
+    padding-block: 20px;
+    padding-right: 20.64px;
+  }
+
+  header > nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: inline;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 27px 58px 27px;
+  }
+
+  .profile-pic-shadow {
+    width: 171px;
+    height: 171px;
+    top: 7%;
+    right: 30%;
+  }
+
+  .profile-pic {
+    width: 171px;
+    height: 171px;
+  }
+
+  .profile-info {
+    text-align: center;
+  }
+
+  .profile-info > h1 {
+    margin-top: 43px;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 21px;
+  }
+
+  .profile-info > p {
+    width: 100%;
+    margin-bottom: 27px;
+  }
+
+  .feed {
+    padding: 1px 12.6px 38px 12.6px;
+  }
+
+  .feed-header {
+    justify-content: center;
+  }
+
+  .feed-header > p {
+    font-size: 18px;
+  }
+
+  .feed-header > a {
+    display: none;
+  }
+
+  .posts {
+    flex-direction: column;
+    gap: 19px;
+  }
+
+  .post {
+    width: 100%;
+  }
+
+  .post > h1 {
+    font-size: 22px;
+    padding: 12px 19px;
+  }
+
+  .post-date {
+    font-size: 16px;
+  }
+
+  .featured {
+    padding: 3px 18px 100px 18px;
+  }
+
+  .featured-head {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .featured-card-mobile-hidden {
+    display: none;
+  }
+
+  .featured-card {
+    flex-direction: column;
+    padding-block: 2px 17px;
+    gap: 17px;
+  }
+
+  .featured-content > h1 {
+    font-size: 24px;
+  }
+
+  .featured-category {
+    gap: 22px;
+  }
+
+  .yr {
+    font-size: 16px;
+  }
+
+  .featured-type {
+    font-size: 16px;
+  }
+}
