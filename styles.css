@@ -43,13 +43,12 @@ nav > a {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  position: relative;
 }
 
 .profile-pic-shadow {
   position: absolute;
-  top: 153px;
-  right: 153px;
+  top: 13px;
+  right: 5px;
   width: 243px;
   height: 243px;
   background-color: #e7f7fa;
@@ -61,6 +60,7 @@ nav > a {
   border-radius: 50%;
   width: 243px;
   height: 243px;
+  position: relative;
 }
 
 .profile-pic > img {
@@ -255,8 +255,8 @@ footer > p {
   .profile-pic-shadow {
     width: 171px;
     height: 171px;
-    top: 7%;
-    right: 30%;
+    top: 9px;
+    right: 3px;
   }
 
   .profile-pic {
