@@ -34,6 +34,11 @@ nav > a {
   padding-block: 6.7px;
 }
 
+nav > a:hover {
+  color: #ff6464;
+  transition: 0.2s;
+}
+
 .nav-mobile {
   display: none;
 }
@@ -244,6 +249,7 @@ footer > p {
 
   .nav-mobile {
     display: inline;
+    cursor: pointer;
   }
 
   .profile {
@@ -253,15 +259,15 @@ footer > p {
   }
 
   .profile-pic-shadow {
-    width: 171px;
-    height: 171px;
+    width: 196px;
+    height: 196px;
     top: 9px;
     right: 3px;
   }
 
   .profile-pic {
-    width: 171px;
-    height: 171px;
+    width: 196px;
+    height: 196px;
   }
 
   .profile-info {
