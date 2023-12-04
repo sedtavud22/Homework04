@@ -39,6 +39,10 @@ nav > a:hover {
   transition: 0.2s;
 }
 
+.nav-active {
+  color: #ff6464;
+}
+
 .nav-mobile {
   display: none;
 }
@@ -196,7 +200,7 @@ nav > a:hover {
   display: flex;
   align-items: baseline;
   gap: 26px;
-  margin-bottom: 20px;
+  margin-block: 5px 20px;
 }
 
 .yr {
@@ -230,13 +234,25 @@ footer {
 .contact {
   display: flex;
   gap: 35px;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
 }
 
 footer > p {
   font-size: 14px;
   color: #21243d;
 }
+
+.all-works {
+  padding: 95px 235px 58px 235px;
+}
+
+.all-works > h1 {
+  color: #21243d;
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 5px;
+}
+
 
 @media screen and (max-width: 431px) {
 
@@ -355,5 +371,14 @@ footer > p {
 
   .featured-type {
     font-size: 16px;
+  }
+
+  .all-works {
+    padding: 16px 18px 0 18px;
+  }
+
+  .all-works > h1 {
+    font-size: 30px;
+    margin-bottom: 11px;
   }
 }
