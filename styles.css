@@ -184,10 +184,12 @@ nav > a:hover {
   border-radius: 6px;
 }
 
-.featured-content > h1 {
+.featured-content > a {
   font-size: 30px;
+  font-weight: 700;
   color: #21243d;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .featured-category {
