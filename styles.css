@@ -290,13 +290,13 @@ footer > p {
 
 @media screen and (max-width: 431px) {
 
+  .hidden-on-mobile {
+    display: none;
+  }
+
   header {
     padding-block: 20px;
     padding-right: 20.64px;
-  }
-
-  header > nav {
-    display: none;
   }
 
   .nav-mobile {
@@ -350,10 +350,6 @@ footer > p {
     font-size: 18px;
   }
 
-  .feed-header > a {
-    display: none;
-  }
-
   .posts {
     flex-direction: column;
     gap: 19px;
@@ -379,10 +375,6 @@ footer > p {
   .featured-head {
     text-align: center;
     font-size: 18px;
-  }
-
-  .featured-card-mobile-hidden {
-    display: none;
   }
 
   .featured-card {
